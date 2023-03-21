@@ -14,3 +14,27 @@ Quota Creation:
         kubectl describe quota --namespace org-a
         kubectl describe quota --namespace org-b
         kubectl describe quota --namespace org-c
+        
+        
+    kubectl describe quota --all-namespaces      
+    
+Name:       pods-a
+Namespace:  org-a
+Resource    Used  Hard
+--------    ----  ----
+memory      0     200Mi
+
+
+Name:       pods-b
+Namespace:  org-b
+Resource    Used  Hard
+--------    ----  ----
+memory      0     400Mi
+
+
+Name:       pods-c
+Namespace:  org-c
+Resource    Used  Hard
+--------    ----  ----
+memory      0     500Mi
+
