@@ -25,6 +25,7 @@ Resource    Used  Hard
 memory      0     200Mi
 
 
+
 Name:       pods-b
 Namespace:  org-b
 Resource    Used  Hard
